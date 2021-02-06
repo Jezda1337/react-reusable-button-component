@@ -1,0 +1,46 @@
+.buttonsContainer {
+  /* width: 50%; */
+}
+.box1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 80%;
+}
+
+button {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+
+.box3 {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+}
+
+.box4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.box5 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr)
+}
+
+.box6 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows:repeat(2, 1fr);
+}
+
+p, a {
+  color: #888;
+}
+
+p {
+  margin-bottom: 3rem;
+}
